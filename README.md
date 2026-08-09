@@ -58,7 +58,7 @@ final numbers = [3, 8, 12, 5, 17, 20, 4, 9];
 * Do not use `while` loops.
 
 
-
+---
 
 ## Challenge 002 — Square Positive Numbers
 
