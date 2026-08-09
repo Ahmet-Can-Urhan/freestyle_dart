@@ -56,3 +56,17 @@ final numbers = [3, 8, 12, 5, 17, 20, 4, 9];
 * Preserve the original order.
 * Do not use `for` loops.
 * Do not use `while` loops.
+
+
+---
+
+## Challenge 002 — Square Positive Numbers
+
+### Description
+
+Write a function that takes a list of integers and returns a new list containing the squares of all positive numbers.
+
+### Function Signature
+
+```dart
+List<int> squarePositiveNumbers(List<int> numbers)
