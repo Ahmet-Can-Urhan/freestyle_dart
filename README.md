@@ -1,4 +1,4 @@
-# Dart Master
+# Freestyle Dart
 
 A collection of Dart programming challenges focused on problem-solving, language fundamentals, and writing testable code.
 
