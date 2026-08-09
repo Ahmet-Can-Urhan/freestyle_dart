@@ -1,5 +1,1 @@
-import 'package:freestyle_dart/freestyle_dart.dart' as freestyle_dart;
-
-void main(List<String> arguments) {
- 
-}
+void main(List<String> arguments) {}
