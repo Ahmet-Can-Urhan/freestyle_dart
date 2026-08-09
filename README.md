@@ -1,6 +1,28 @@
-# Freestyle Dart
+# Dart Master
 
 A collection of Dart programming challenges focused on problem-solving, language fundamentals, and writing testable code.
+
+## About
+
+Each challenge presents a specific programming problem with a set of constraints. The goal is to solve each problem using Dart while keeping the implementation clear, idiomatic, and maintainable.
+
+Every challenge includes an automated test suite to verify the implementation.
+
+### Running the Tests
+
+Run all tests from the project root:
+
+```bash
+dart test
+```
+
+To run the tests for a specific challenge:
+
+```bash
+dart test test/challenge_001_test.dart
+```
+
+---
 
 ## Challenge 001 — Get Even Numbers
 
@@ -34,13 +56,3 @@ final numbers = [3, 8, 12, 5, 17, 20, 4, 9];
 * Preserve the original order.
 * Do not use `for` loops.
 * Do not use `while` loops.
-
-### Testing
-
-Each challenge includes automated tests using Dart's `test` package.
-
-Run the test suite with:
-
-```bash
-dart test
-```
