@@ -192,6 +192,8 @@ Move to the next challenge
 ## Challenges
 
 Challenges are organized by number and gradually introduce different Dart concepts.
+
+
 See [CHALLENGES.md](CHALLENGES.md) for the complete challenge list.
 
 The challenges will expand to cover areas such as:
