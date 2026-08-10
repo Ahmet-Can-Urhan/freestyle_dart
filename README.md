@@ -192,11 +192,7 @@ Move to the next challenge
 ## Challenges
 
 Challenges are organized by number and gradually introduce different Dart concepts.
-
-| Challenge                | Topic                  |
-| ------------------------ | ---------------------- |
-| [001](challenges/001.md) | List filtering         |
-| ...                      | More challenges coming |
+See [CHALLENGES.md](CHALLENGES.md) for the complete challenge list.
 
 The challenges will expand to cover areas such as:
 
