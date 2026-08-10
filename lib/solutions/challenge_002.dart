@@ -1,3 +1,5 @@
 List<int> squarePositiveNumbers(List<int> numbers) {
-  return numbers.where((x) => x > 0).map((x) => x * x).toList();
+  
+  final solution = numbers.where((x) => x > 0).map((x) => x * x).toList();
+  return solution;
 }

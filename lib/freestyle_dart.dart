@@ -1,8 +1,8 @@
-export 'exercises/challenge_001.dart';
-export 'exercises/challenge_002.dart';
-export 'exercises/challenge_003.dart';
-export 'exercises/challenge_004.dart';
-export 'exercises/challenge_005.dart';
-export 'exercises/challenge_006.dart';
-export 'exercises/challenge_007.dart';
-export 'exercises/challenge_008.dart';
+export 'solve_me/challenge_001.dart';
+export 'solve_me/challenge_002.dart';
+export 'solve_me/challenge_003.dart';
+export 'solve_me/challenge_004.dart';
+export 'solve_me/challenge_005.dart';
+export 'solve_me/challenge_006.dart';
+export 'solve_me/challenge_007.dart';
+export 'solve_me/challenge_008.dart';

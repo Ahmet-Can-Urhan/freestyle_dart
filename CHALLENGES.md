@@ -1,4 +1,4 @@
-## Exercise List
+## Challenge List
 
 | #   | Exercise                                               | Main Concept         |
 | --- | --------------------------------------------           | -------------------- |

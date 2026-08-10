@@ -11,7 +11,7 @@ The challenges focus on Dart itself — its syntax, collections, functions, lang
 Each challenge gives you:
 
 1. A problem to solve.
-2. An exercise file to implement.
+2. A challenge file inside solve_me folder to implement.
 3. A test suite that checks your solution.
 4. A reference solution to compare with afterward.
 
@@ -55,7 +55,7 @@ You're now ready to start solving challenges.
 
 ## Solving a Challenge
 
-Every challenge follows the same workflow. You do not need to create any new files. Simply modify the provided exercise and run its corresponding test.
+Every challenge follows the same workflow. You do not need to create any new files. Simply modify the provided challenge file inside the solve_me folder and run its corresponding test.
 
 ### 1. Choose a Challenge
 
@@ -70,19 +70,19 @@ challenges/
 
 Read the problem statement, requirements, and examples carefully before writing any code.
 
-### 2. Open the Exercise
+### 2. Open the challenge file
 
-Each challenge has a corresponding Dart file in the `lib/exercises/` directory.
+Each challenge has a corresponding Dart file in the `lib/solve_me/` directory.
 
 For example:
 
 ```text
 lib/
-└── exercises/
+└── solve_me/
     └── challenge_001.dart
 ```
 
-Open the exercise file. It contains the function you need to implement:
+Open the challenge in the solve_me folder. It contains the function you need to implement:
 
 ```dart
 List<int> getEvenNumbers(List<int> numbers) {
@@ -135,10 +135,10 @@ dart test test/challenge_002_test.dart
 
 If a test fails, read the test output and inspect your implementation.
 
-Modify the exercise in:
+Modify the challenge inside the solve_me folder:
 
 ```text
-lib/exercises/challenge_001.dart
+lib/solve_me/challenge_001.dart
 ```
 
 Then run the test again:
@@ -176,7 +176,7 @@ Choose a challenge
         ↓
 Read the problem
         ↓
-Open its exercise
+Open its challenge file inside solve_me folder
         ↓
 Implement the solution
         ↓
@@ -222,9 +222,9 @@ Each challenge follows the same basic structure.
 
 The problem statement describes what your function should accomplish, along with any relevant requirements or constraints.
 
-### Exercise
+### solve_me folder
 
-The exercise contains the function you need to implement.
+The challenge files inside solve_me folder contains the functions you need to implement.
 
 The starter implementation is intentionally minimal:
 

@@ -1,5 +1,5 @@
 Map<int, List<String>> groupWordsByLength(List<String> words) {
-  return words.fold(
+  final solution = words.fold(
     <int, List<String>>{}, //initial value
     (result, word) => result
       ..putIfAbsent(
@@ -7,4 +7,5 @@ Map<int, List<String>> groupWordsByLength(List<String> words) {
         () => [],
       ).add(word), //function called for each word
   );
+  return solution;
 }

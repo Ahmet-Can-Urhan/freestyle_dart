@@ -1,3 +1,5 @@
 int countOccurrences(List<String> items, String target) {
-  return items.where((x) => x == target).length;
+
+  final solution = items.where((x) => x == target).length;
+  return solution;
 }
