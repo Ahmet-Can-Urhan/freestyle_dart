@@ -11,7 +11,7 @@ The challenges focus on Dart itself — its syntax, collections, functions, lang
 Each challenge gives you:
 
 1. A problem to solve.
-2. A starter implementation.
+2. An exercise file to implement.
 3. A test suite that checks your solution.
 4. A reference solution to compare with afterward.
 
@@ -38,7 +38,7 @@ The reference solutions are available in the repository. **Try to solve each cha
 * [Dart SDK](https://dart.dev/get-dart)
 * A Dart-compatible IDE or editor
 
-### Clone the repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Ahmet-Can-Urhan/freestyle_dart.git
@@ -51,17 +51,142 @@ Install the dependencies:
 dart pub get
 ```
 
-Run all tests:
+You're now ready to start solving challenges.
 
-```bash
-dart test
+## Solving a Challenge
+
+Every challenge follows the same workflow. You do not need to create any new files. Simply modify the provided exercise and run its corresponding test.
+
+### 1. Choose a Challenge
+
+Choose a challenge from the [`challenges/`](challenges/) directory.
+
+For example:
+
+```text
+challenges/
+└── 001.md
 ```
-(It will fail if you didn't solve all challenges)
 
-You can also run a specific challenge:
+Read the problem statement, requirements, and examples carefully before writing any code.
+
+### 2. Open the Exercise
+
+Each challenge has a corresponding Dart file in the `lib/exercises/` directory.
+
+For example:
+
+```text
+lib/
+└── exercises/
+    └── challenge_001.dart
+```
+
+Open the exercise file. It contains the function you need to implement:
+
+```dart
+List<int> getEvenNumbers(List<int> numbers) {
+  // TODO: Implement this function.
+
+  final solution = null;
+  return solution;
+}
+```
+
+**Do not change the function name, parameters, or return type.**
+
+Your job is to replace the `null` value with your own implementation while keeping the `solution` variable:
+
+```dart
+List<int> getEvenNumbers(List<int> numbers) {
+  // TODO: Implement this function.
+
+  final solution = numbers.where((number) => number.isEven).toList();
+  return solution;
+}
+```
+
+You are free to use any valid Dart approach as long as your implementation satisfies the challenge requirements.
+
+### 3. Run the Challenge Test
+
+Each challenge has a corresponding test file in the `test/` directory:
+
+```text
+test/
+└── challenge_001_test.dart
+```
+
+Run **only the test for the challenge you are currently solving**:
 
 ```bash
 dart test test/challenge_001_test.dart
+```
+
+Replace `001` with the number of the challenge you are solving.
+
+For example:
+
+```bash
+dart test test/challenge_002_test.dart
+```
+
+### 4. Fix Your Implementation
+
+If a test fails, read the test output and inspect your implementation.
+
+Modify the exercise in:
+
+```text
+lib/exercises/challenge_001.dart
+```
+
+Then run the test again:
+
+```bash
+dart test test/challenge_001_test.dart
+```
+
+Repeat this process until all tests for the challenge pass.
+
+### 5. Compare With the Reference Solution
+
+Once your tests pass, compare your implementation with the reference solution.
+
+Reference solutions are located in the `lib/solutions/` directory:
+
+```text
+lib/
+└── solutions/
+    └── challenge_001.dart
+```
+
+The reference solution can help you discover different approaches and learn Dart's idioms.
+
+You **do not need to reproduce the reference solution**. If your implementation satisfies the requirements and passes the tests, your solution is valid.
+
+### 6. Move to the Next Challenge
+
+Once you are satisfied with your solution, choose another challenge and repeat the same process.
+
+The complete workflow is:
+
+```text
+Choose a challenge
+        ↓
+Read the problem
+        ↓
+Open its exercise
+        ↓
+Implement the solution
+        ↓
+Run its test
+        ↓
+Fix failing tests
+        ↓
+Compare with the reference solution
+        ↓
+Move to the next challenge
 ```
 
 ## Challenges
@@ -97,14 +222,14 @@ Each challenge follows the same basic structure.
 
 The problem statement describes what your function should accomplish, along with any relevant requirements or constraints.
 
-### Starter Code
+### Exercise
 
-A ready-to-edit function is provided so you can focus on solving the problem.
+The exercise contains the function you need to implement.
 
-For example:
+The starter implementation is intentionally minimal:
 
 ```dart
-Map<int, List<String>> groupWordsByLength(List<String> words) {
+List<int> getEvenNumbers(List<int> numbers) {
   // TODO: Implement this function.
 
   final solution = null;
@@ -112,27 +237,25 @@ Map<int, List<String>> groupWordsByLength(List<String> words) {
 }
 ```
 
-Replace the placeholder with your own implementation.
+Replace the placeholder with your own implementation while keeping the function signature unchanged.
 
 ### Tests
 
 The tests define the expected behavior of your implementation.
 
-Run them with:
+Run the test for the challenge you are currently solving:
 
 ```bash
-dart test/challenge_XXX_test.dart
+dart test test/challenge_001_test.dart
 ```
 
-A failing test means your implementation doesn't satisfy one of the expected cases yet.
+A failing test means your implementation does not satisfy one of the expected cases yet.
 
 ### Reference Solution
 
-Each challenge includes a reference implementation.
+Each challenge includes a reference implementation in `lib/solutions/`.
 
 Use it **after attempting the challenge yourself** to compare different approaches and learn Dart's idioms.
-
-The goal isn't necessarily to reproduce the reference solution. If your implementation passes the tests and satisfies the requirements, your solution is valid.
 
 ## What You'll Practice
 
@@ -144,13 +267,13 @@ The objective is to build an intuition for **when and why Dart's language featur
 
 This repository uses Dart's [`package:test`](https://pub.dev/packages/test) for automated tests.
 
-Run the complete test suite with:
+Each challenge has its own test file. Run the test corresponding to the challenge you are currently solving:
 
 ```bash
-dart test
+dart test test/challenge_001_test.dart
 ```
 
-You should use the tests as your feedback loop while solving the challenges.
+The tests are intended to be your feedback loop while solving the challenges.
 
 ## Recommended Approach
 
@@ -161,8 +284,8 @@ A good workflow is:
 ```text
 1. Read the challenge
 2. Think about the problem
-3. Write your first solution
-4. Run the tests
+3. Implement your solution
+4. Run the challenge test
 5. Fix failing cases
 6. Refactor if necessary
 7. Look at the reference solution
