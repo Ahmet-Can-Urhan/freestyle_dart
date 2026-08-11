@@ -35,8 +35,8 @@ Compare with the reference solution
 
 ### Requirements
 
-* [Dart SDK](https://dart.dev/get-dart)
-* A Dart-compatible IDE or editor
+- [Dart SDK](https://dart.dev/get-dart)
+- A Dart-compatible IDE or editor
 
 ### Clone the Repository
 
@@ -143,9 +143,7 @@ The reference solution is provided to help you discover different approaches and
 
 You **do not need to reproduce the reference solution**. If your implementation satisfies the requirements and passes the tests, your solution is valid.
 
-## Challenge Structure
-
-The repository follows this structure:
+## Repository Structure
 
 ```text
 .
@@ -167,18 +165,18 @@ Freestyle Dart focuses on becoming comfortable with Dart's language and standard
 
 As the collection grows, challenges will cover areas such as:
 
-* Lists and iterables
-* Maps and sets
-* Collection methods
-* Functions and higher-order functions
-* Null safety
-* Records
-* Pattern matching
-* Classes and objects
-* Generics
-* Extensions
-* Asynchronous programming
-* Dart idioms and language features
+- Lists and iterables
+- Maps and sets
+- Collection methods
+- Functions and higher-order functions
+- Null safety
+- Records
+- Pattern matching
+- Classes and objects
+- Generics
+- Extensions
+- Asynchronous programming
+- Dart idioms and language features
 
 The goal is to build an intuition for **when and why Dart's language features and core libraries are useful**.
 
@@ -197,28 +195,6 @@ To run the entire test suite:
 ```bash
 dart test
 ```
-
-The tests are intended to be your primary feedback loop while solving challenges.
-
-## Recommended Approach
-
-Don't look at the reference solution immediately.
-
-A good approach is:
-
-```text
-1. Read the challenge
-2. Think about the problem
-3. Implement your solution
-4. Run the tests
-5. Fix failing cases
-6. Refactor if necessary
-7. Compare with the reference solution
-```
-
-The goal isn't to write the shortest possible solution.
-
-The goal is to become better at **Dart**.
 
 ## Contributing
 
