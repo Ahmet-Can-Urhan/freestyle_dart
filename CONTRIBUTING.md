@@ -17,7 +17,7 @@ You can contribute by:
 
 When adding a new challenge:
 
-1. Create a new directory under `solve_me/`.
+1. Create a new directory under `lib/solve_me/`.
 2. Add the challenge implementation. Follow the general structure below:
 
 ```dart
