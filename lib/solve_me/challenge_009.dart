@@ -1,6 +1,6 @@
 Map<String, int> countWordOccurrences(List<String> words) {
   //TODO: Implement this function.
 
-  final result = null;
-  return result;
+  final solution = null;
+  return solution;
 }
