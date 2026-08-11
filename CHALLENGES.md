@@ -10,4 +10,4 @@
 | 006 | [Get Adult Names](challenges/challenge_006.md)         | `where`, `map`       |
 | 007 | [Group By Parity](challenges/challenge_007.md)         | `Map`, `putIfAbsent` |
 | 008 | [Group Words By Length](challenges/challenge_008.md)   | `Map`, `putIfAbsent` |
-
+| 009 | [Count Word Occurrences](challenges/challenge_009.md)  | `Map`, `fold`        |
