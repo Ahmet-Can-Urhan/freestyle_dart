@@ -306,6 +306,9 @@ Good challenges should:
 * Include meaningful test cases.
 * Avoid requiring external services or dependencies unless necessary.
 
+
+**Make sure you have read [CONTRIBUTING.md](CONTRIBUTING) file for details.**
+
 ## License
 
 This project is open source. See the [LICENSE](LICENSE) file for details.
