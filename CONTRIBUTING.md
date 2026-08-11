@@ -1,37 +1,46 @@
 # Contributing
 
-Contributions are welcome. This repository is intended to be a collection of Dart programming challenges and solutions, with an emphasis on clean, idiomatic, and efficient Dart code.
+Contributions are welcome. Freestyle Dart is a collection of Dart programming challenges and solutions, with an emphasis on clean, idiomatic, and efficient Dart code.
 
 ## What You Can Contribute
 
 You can contribute by:
 
-* Adding new challenges
-* Improving existing solutions
-* Adding alternative solutions with a meaningful trade-off
-* Improving tests
-* Fixing documentation or typos
-* Improving the repository structure or tooling
+- Adding new challenges
+- Improving existing solutions
+- Adding alternative solutions with a meaningful trade-off
+- Improving tests
+- Fixing documentation or typos
+- Improving repository structure or tooling
 
 ## Adding a Challenge
 
-When adding a new challenge:
+When adding a new challenge, keep the related files consistent with the repository structure:
 
-1. Create a new directory under `lib/solve_me/`.
-2. Add the challenge implementation. Follow the general structure below:
+```text
+challenges/challenge_010.md
+lib/solve_me/challenge_010.dart
+lib/solutions/challenge_010.dart
+test/challenge_010_test.dart
+```
+
+1. Add the challenge description to `challenges/`.
+2. Add the starter implementation to `lib/solve_me/`.
+3. Add the reference solution to `lib/solutions/`.
+4. Add tests covering the expected behavior and relevant edge cases.
+5. Update [`CHALLENGES.md`](CHALLENGES.md) with the new challenge.
+6. Keep the challenge focused on a specific Dart concept, language feature, idiom, or programming technique.
+
+A starter implementation should follow the general structure below:
 
 ```dart
 ReturnType challengeName(parameters) {
-  //TODO: Implement this function.
+  // TODO: Implement this function.
 
   final solution = null;
   return solution;
 }
-
 ```
-3. Add tests covering the expected behavior and relevant edge cases.
-4. Update `EXERCISES.md` with the new challenge.
-5. Keep the challenge focused on a specific programming concept or problem.
 
 Challenges should be self-contained and should not depend on external packages unless there is a clear reason to use one.
 
@@ -46,11 +55,11 @@ Solutions should prioritize:
 
 Avoid unnecessarily clever implementations when a simpler solution is easier to understand.
 
-If an alternative solution has a different complexity or demonstrates an important Dart feature, it may be included alongside the primary solution.
+An alternative solution may be included when it demonstrates a meaningful trade-off, a different complexity, or an important Dart feature.
 
 ## Testing
 
-Every solution should have tests.
+Every challenge should have tests covering its expected behavior and relevant edge cases.
 
 Run the test suite with:
 
@@ -70,7 +79,7 @@ Run the analyzer before submitting:
 dart analyze
 ```
 
-Use `dart format` to format Dart files:
+Format Dart files with:
 
 ```bash
 dart format .
@@ -80,10 +89,10 @@ dart format .
 
 Before opening a pull request:
 
-1. Make sure the code is formatted. (`dart format`)
+1. Make sure the code is formatted with `dart format`.
 2. Run `dart analyze`.
 3. Run `dart test`.
-4. Make sure the changes are focused on the purpose of the pull request.
+4. Keep the changes focused on the purpose of the pull request.
 5. Provide a clear description of what was changed and why.
 
 Keep pull requests small and focused whenever possible.
