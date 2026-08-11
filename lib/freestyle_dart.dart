@@ -6,3 +6,4 @@ export 'solve_me/challenge_005.dart';
 export 'solve_me/challenge_006.dart';
 export 'solve_me/challenge_007.dart';
 export 'solve_me/challenge_008.dart';
+export 'solve_me/challenge_009.dart';

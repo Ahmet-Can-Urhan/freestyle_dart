@@ -1,5 +1,4 @@
 Map<String, List<int>> groupByParity(List<int> numbers) {
-
   final solution = Map.fromIterables(
     ['even', 'odd'],
     [
