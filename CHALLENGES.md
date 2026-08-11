@@ -1,7 +1,7 @@
-## Challenge List
+# Challenge List
 
-| #   | Exercise                                               | Main Concept         |
-| --- | --------------------------------------------           | -------------------- |
+| #   | Challenge                                               | Main Concept         |
+| --- | ------------------------------------------------------- | -------------------- |
 | 001 | [Get Even Numbers](challenges/challenge_001.md)        | `where`              |
 | 002 | [Square Positive Numbers](challenges/challenge_002.md) | `where`, `map`       |
 | 003 | [Sum Positive Numbers](challenges/challenge_003.md)    | `where`, `fold`      |
