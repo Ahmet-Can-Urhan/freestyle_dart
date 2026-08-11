@@ -307,7 +307,7 @@ Good challenges should:
 * Avoid requiring external services or dependencies unless necessary.
 
 
-**Make sure you have read [CONTRIBUTING.md](CONTRIBUTING) file for details.**
+**Make sure you have read [CONTRIBUTING](CONTRIBUTING.md) file for details.**
 
 ## License
 
