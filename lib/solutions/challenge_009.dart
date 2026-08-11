@@ -1,4 +1,4 @@
-Map<String, int> countWordOccurences(List<String> words) {
+Map<String, int> countWordOccurrences(List<String> words) {
   final result = words.fold(
     <String, int>{},
     (result, word) =>
