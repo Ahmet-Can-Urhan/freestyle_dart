@@ -1,4 +1,4 @@
-# Challenge 012 — Flatten Nested Lists
+# Challenge 013 — Flatten Nested Lists
 
 ## Description
 

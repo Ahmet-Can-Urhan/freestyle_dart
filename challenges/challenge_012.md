@@ -1,4 +1,4 @@
-# Challenge 011 — Find the First Non-Repeating Character
+# Challenge 012 — Find the First Non-Repeating Character
 
 ## Description
 
