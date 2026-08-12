@@ -29,7 +29,7 @@ ReturnType challengeName(parameters) {
 }
 ```
 3. Add tests covering the expected behavior and relevant edge cases.
-4. Update `EXERCISES.md` with the new challenge.
+4. Update `CHALLENGES.md` with the new challenge.
 5. Keep the challenge focused on a specific programming concept or problem.
 
 Challenges should be self-contained and should not depend on external packages unless there is a clear reason to use one.
