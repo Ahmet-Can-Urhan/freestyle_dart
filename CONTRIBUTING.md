@@ -28,9 +28,10 @@ ReturnType challengeName(parameters) {
   return solution;
 }
 ```
-3. Add tests covering the expected behavior and relevant edge cases.
-4. Update `CHALLENGES.md` with the new challenge.
-5. Keep the challenge focused on a specific programming concept or problem.
+3. Export challenge file at `solve_me/freestyle_dart.dart`. You should call only this file in test files.
+4. Add tests covering the expected behavior and relevant edge cases.
+5. Update `CHALLENGES.md` with the new challenge.
+6. Keep the challenge focused on a specific programming concept or problem.
 
 Challenges should be self-contained and should not depend on external packages unless there is a clear reason to use one.
 
