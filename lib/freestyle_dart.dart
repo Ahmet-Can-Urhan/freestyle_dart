@@ -8,3 +8,4 @@ export 'solve_me/challenge_007.dart';
 export 'solve_me/challenge_008.dart';
 export 'solve_me/challenge_009.dart';
 export 'solve_me/challenge_010.dart';
+export 'solve_me/challenge_011.dart';
