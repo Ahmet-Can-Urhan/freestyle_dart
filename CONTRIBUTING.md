@@ -15,23 +15,10 @@ You can contribute by:
 
 ## Adding a Challenge
 
-When adding a new challenge, keep the related files consistent with the repository structure:
+When adding a new challenge:
 
-```text
-challenges/challenge_010.md
-lib/solve_me/challenge_010.dart
-lib/solutions/challenge_010.dart
-test/challenge_010_test.dart
-```
-
-1. Add the challenge description to `challenges/`.
-2. Add the starter implementation to `lib/solve_me/`.
-3. Add the reference solution to `lib/solutions/`.
-4. Add tests covering the expected behavior and relevant edge cases.
-5. Update [`CHALLENGES.md`](CHALLENGES.md) with the new challenge.
-6. Keep the challenge focused on a specific Dart concept, language feature, idiom, or programming technique.
-
-A starter implementation should follow the general structure below:
+1. Create a new directory under `lib/solve_me/`.
+2. Add the challenge implementation. Follow the general structure below:
 
 ```dart
 ReturnType challengeName(parameters) {
@@ -41,6 +28,9 @@ ReturnType challengeName(parameters) {
   return solution;
 }
 ```
+3. Add tests covering the expected behavior and relevant edge cases.
+4. Update `EXERCISES.md` with the new challenge.
+5. Keep the challenge focused on a specific programming concept or problem.
 
 Challenges should be self-contained and should not depend on external packages unless there is a clear reason to use one.
 
@@ -64,10 +54,10 @@ Every challenge should have tests covering its expected behavior and relevant ed
 Run the test suite with:
 
 ```bash
-dart test
+dart test test/challenge_XXX_test.dart
 ```
 
-All tests should pass before submitting a pull request.
+Note that test command tests files under the lib/solve_me file, so you should put your solution there temporarily to test your solution.
 
 ## Code Style
 
