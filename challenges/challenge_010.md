@@ -5,15 +5,15 @@
 Write a function that takes a list of strings and returns the word that appears most frequently in the list.
 
 ### Function Signature
-
+```dart
     String findMostFrequentWord(List<String> words)
-
+```
 ### Example
 
 **Input:**
-
+```dart
     final words = ['dart', 'flutter', 'dart', 'code', 'flutter', 'dart'];
-
+```
 **Expected Output:**
 
     dart
