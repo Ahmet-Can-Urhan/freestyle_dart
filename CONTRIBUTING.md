@@ -28,7 +28,7 @@ ReturnType challengeName(parameters) {
   return solution;
 }
 ```
-3. Export challenge file at `solve_me/freestyle_dart.dart`. You should call only this file in test files.
+3. Export solve_me file at `lib/freestyle_dart.dart`. You should call only this file in test files.
 4. Add tests covering the expected behavior and relevant edge cases.
 5. Update `CHALLENGES.md` with the new challenge.
 6. Keep the challenge focused on a specific programming concept or problem.
