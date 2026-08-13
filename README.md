@@ -1,6 +1,9 @@
 # Freestyle Dart
 
 [![Dart CI](https://github.com/Ahmet-Can-Urhan/freestyle_dart/actions/workflows/dart.yml/badge.svg)](https://github.com/Ahmet-Can-Urhan/freestyle_dart/actions/workflows/dart.yml)
+[![Dart](https://img.shields.io/badge/Dart-3.x-blue?logo=dart)](https://dart.dev/)
+[![License](https://img.shields.io/github/license/Ahmet-Can-Urhan/freestyle_dart)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/Ahmet-Can-Urhan/freestyle_dart)](https://github.com/Ahmet-Can-Urhan/freestyle_dart/stargazers)
 
 A collection of hands-on challenges for practicing Dart.
 
