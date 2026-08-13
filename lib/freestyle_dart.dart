@@ -11,3 +11,4 @@ export 'solve_me/challenge_010.dart';
 export 'solve_me/challenge_011.dart';
 export 'solve_me/challenge_012.dart';
 export 'solve_me/challenge_013.dart';
+export 'solve_me/challenge_014.dart';
