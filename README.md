@@ -1,5 +1,7 @@
 # Freestyle Dart
 
+[![Dart CI](https://github.com/Ahmet-Can-Urhan/freestyle_dart/actions/workflows/dart.yml/badge.svg)](https://github.com/Ahmet-Can-Urhan/freestyle_dart/actions/workflows/dart.yml)
+
 A collection of hands-on challenges for practicing Dart.
 
 Freestyle Dart is designed for developers who want to improve their Dart skills by **writing code, solving problems, and testing their own implementations** rather than simply following tutorials.
