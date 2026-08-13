@@ -1,4 +1,4 @@
-# Challenge 013 — Build an Index from a List
+# Challenge 014 — Build an Index from a List
 
 ## Description
 
